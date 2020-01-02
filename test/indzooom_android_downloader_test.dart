@@ -3,7 +3,7 @@ import 'package:indzooom_android_downloader/indzooom_android_downloader.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('flutter_android_downloader');
+  const MethodChannel channel = MethodChannel('indzooom_android_downloader');
 
   setUp(() {
     channel.setMockMethodCallHandler((MethodCall methodCall) async {
@@ -16,6 +16,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await FlutterAndroidDownloader.platformVersion, '42');
+    expect(await IndzooomAndroidDownloader.platformVersion, '42');
   });
 }

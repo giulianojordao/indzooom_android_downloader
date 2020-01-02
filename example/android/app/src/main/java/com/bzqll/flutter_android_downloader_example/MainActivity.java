@@ -1,4 +1,4 @@
-package com.bzqll.flutter_android_downloader_example;
+package br.com.indzooom.indzooom_android_downloader_example;
 
 import android.os.Bundle;
 

@@ -1,11 +1,11 @@
-#import "FlutterAndroidDownloaderPlugin.h"
+#import "IndzooomAndroidDownloaderPlugin.h"
 
-@implementation FlutterAndroidDownloaderPlugin
+@implementation IndzooomAndroidDownloaderPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"flutter_android_downloader"
+      methodChannelWithName:@"indzooom_android_downloader"
             binaryMessenger:[registrar messenger]];
-  FlutterAndroidDownloaderPlugin* instance = [[FlutterAndroidDownloaderPlugin alloc] init];
+  IndzooomAndroidDownloaderPlugin* instance = [[IndzooomAndroidDownloaderPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
 }
 

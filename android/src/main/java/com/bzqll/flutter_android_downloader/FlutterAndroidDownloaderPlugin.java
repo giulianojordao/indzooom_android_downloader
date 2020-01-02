@@ -1,4 +1,4 @@
-package com.bzqll.flutter_android_downloader;
+package br.com.indzooom.indzooom_android_downloader;
 
 import android.Manifest;
 import android.app.Activity;
@@ -15,9 +15,9 @@ import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /**
- * FlutterAndroidDownloaderPlugin
+ * IndzooomAndroidDownloaderPlugin
  */
-public class FlutterAndroidDownloaderPlugin implements MethodCallHandler {
+public class IndzooomAndroidDownloaderPlugin implements MethodCallHandler {
 
     final int PERMISSION_CODE = 1000;
     String url;
@@ -25,7 +25,7 @@ public class FlutterAndroidDownloaderPlugin implements MethodCallHandler {
     String directory;
     Activity activity;
 
-    FlutterAndroidDownloaderPlugin(Activity activity) {
+    IndzooomAndroidDownloaderPlugin(Activity activity) {
         this.activity = activity;
     }
 
@@ -33,8 +33,8 @@ public class FlutterAndroidDownloaderPlugin implements MethodCallHandler {
      * Plugin registration.
      */
     public static void registerWith(Registrar registrar) {
-        final MethodChannel channel = new MethodChannel(registrar.messenger(), "flutter_android_downloader");
-        channel.setMethodCallHandler(new FlutterAndroidDownloaderPlugin(registrar.activity()));
+        final MethodChannel channel = new MethodChannel(registrar.messenger(), "indzooom_android_downloader");
+        channel.setMethodCallHandler(new IndzooomAndroidDownloaderPlugin(registrar.activity()));
     }
 
     @Override

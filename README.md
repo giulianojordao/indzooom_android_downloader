@@ -1,33 +1,32 @@
 # Indzooom Android Downloader
 
-[![Pub](https://img.shields.io/pub/v/flutter_android_downloader.svg?style=flat-square)](https://pub.dartlang.org/packages/indzooom_android_downloader)
+[![Pub](https://img.shields.io/pub/v/indzooom_android_downloader.svg?style=flat-square)](https://pub.dartlang.org/packages/indzooom_android_downloader)
 
-
-indzooom_android_downloader - A plugin that calls the Android download manager 一个调用安卓系统下载管理器的插件 
-
+indzooom_android_downloader - A plugin that calls the Android download manager 一个调用安卓系统下载管理器的插件
 
 ## 首先 / First of all
 
-## 在您的android / app / AndroidManifest.xml上添加以下内容： / On your android/app/AndroidManifest.xml add this: 
-	```xml
-	<uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
-	```
+## 在您的android / app / AndroidManifest.xml上添加以下内容： / On your android/app/AndroidManifest.xml add this
+
+```xml
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+```
 
 ## 添加依赖 / Add Dependency
 
 ```yaml
 dependencies:
-  flutter_android_downloader: ^1.0.1+2
+  indzooom_android_downloader: ^1.0.2+3
 ```
 
 ## 创建下载 / Create a download
 
 ```dart
-FlutterAndroidDownloader.download("url", "path", "fileName");
+IndzooomAndroidDownloader.download("url", "path", "fileName");
 ```
 
 > 参数说明 / Parameter description
@@ -42,7 +41,7 @@ FlutterAndroidDownloader.download("url", "path", "fileName");
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:flutter_android_downloader/flutter_android_downloader.dart';
+import 'package:indzooom_android_downloader/indzooom_android_downloader.dart';
 
 void main() => runApp(MyApp());
 
@@ -54,7 +53,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   void initState() {
     super.initState();
-    FlutterAndroidDownloader.getPermission();
+    IndzooomAndroidDownloader.getPermission();
   }
 
   @override
@@ -65,10 +64,10 @@ class _MyAppState extends State<MyApp> {
           child: IconButton(
             icon: Icon(Icons.file_download),
             onPressed: () {
-              FlutterAndroidDownloader.download(
-                  "https://qd.myapp.com/myapp/qqteam/AndroidQQ/mobileqq_android.apk",
+              IndzooomAndroidDownloader.download(
+                  "https://apkpure.com/br/files-by-google-clean-up-space-on-your-phone/com.google.android.apps.nbu.files/download?from=details",
                   "/ABC",
-                  "mobileqq_android.apk");
+                  "google_files.apk");
             },
           ),
         ),
@@ -78,4 +77,3 @@ class _MyAppState extends State<MyApp> {
 }
 
 ```
-

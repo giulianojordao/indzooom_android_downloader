@@ -19,13 +19,13 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-            child: IconButton(
-                icon: Icon(Icons.file_download),
+          child: IconButton(
+            icon: Icon(Icons.file_download),
             onPressed: () {
               IndzooomAndroidDownloader.download(
-                  "https://qd.myapp.com/myapp/qqteam/AndroidQQ/mobileqq_android.apk",
+                  "https://apkpure.com/br/files-by-google-clean-up-space-on-your-phone/com.google.android.apps.nbu.files/download?from=details",
                   "/ABC",
-                  "mobileqq_android.apk");
+                  "google_files.apk");
             },
           ),
         ),

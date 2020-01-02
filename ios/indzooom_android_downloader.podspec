@@ -2,8 +2,8 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_android_downloader'
-  s.version          = '0.0.1'
+  s.name             = 'indzooom_android_downloader'
+  s.version          = '1.0.2'
   s.summary          = 'A Flutter Android plugin.'
   s.description      = <<-DESC
 A Flutter Android plugin.

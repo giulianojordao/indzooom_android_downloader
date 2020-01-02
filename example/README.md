@@ -1,6 +1,6 @@
-# flutter_android_downloader_example
+# indzooom_android_downloader_example
 
-Demonstrates how to use the flutter_android_downloader plugin.
+Demonstrates how to use the indzooom_android_downloader plugin.
 
 ## Getting Started
 

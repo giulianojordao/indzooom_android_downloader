@@ -324,7 +324,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bzqll.flutterAndroidDownloaderExample;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.indzooom.indzooomAndroidDownloaderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -453,7 +453,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bzqll.flutterAndroidDownloaderExample;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.indzooom.indzooomAndroidDownloaderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -476,7 +476,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bzqll.flutterAndroidDownloaderExample;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.indzooom.indzooomAndroidDownloaderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};

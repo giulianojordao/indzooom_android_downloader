@@ -1,5 +1,5 @@
-name: flutter_android_downloader_example
-description: Demonstrates how to use the flutter_android_downloader plugin.
+name: indzooom_android_downloader_example
+description: Demonstrates how to use the indzooom_android_downloader plugin.
 publish_to: 'none'
 
 environment:
