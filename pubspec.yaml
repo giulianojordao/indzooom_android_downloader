@@ -1,0 +1,25 @@
+name: indzooom_android_downloader
+description: A plugin that uses the Android download manager
+version: 1.0.1+2
+homepage: https://github.com/giulianojordao/indzooom_android_downloader
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+  flutter: ">=1.10.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+flutter:
+  plugin:
+    platforms:
+      android: 
+        package: br.com.indzooom.indzooom_android_downloader
+        pluginClass: IndzooomAndroidDownloaderPlugin      
+      ios: 
+        pluginClass: IndzooomAndroidDownloaderPlugin
