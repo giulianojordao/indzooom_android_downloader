@@ -20,7 +20,7 @@ indzooom_android_downloader - A plugin that calls the Android download manager �
 
 ```yaml
 dependencies:
-  indzooom_android_downloader: ^1.0.2+3
+  indzooom_android_downloader: ^1.0.2+4
 ```
 
 ## 创建下载 / Create a download
