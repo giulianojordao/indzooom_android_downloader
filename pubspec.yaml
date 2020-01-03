@@ -1,6 +1,6 @@
 name: indzooom_android_downloader
-description: A plugin that uses the Android download manager
-version: 1.0.2+3
+description: 该插件可在Android和IOS上实现更快，更简化的下载管理，并具有直接通知和查看下载文件的选项。A plugin to enable faster and more streamlined download management on Android and IOS with option to notify and view the downloaded file directly.
+version: 1.0.2+4
 homepage: https://github.com/giulianojordao/indzooom_android_downloader
 
 environment:
